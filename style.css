@@ -4,6 +4,9 @@ body {
     -ms-text-combine-horizontal: all;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    
 }
 
 a {
@@ -16,14 +19,27 @@ a {
 #neuralnetwork{
     text-align: left;
     background-color: cadetblue;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #tictactoeproject{
     text-align: right;
     background-color: cornflowerblue;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #webportfolio{
     text-align: left;
     background-color: darkblue;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about {
+    margin-top: 100px;
 }
