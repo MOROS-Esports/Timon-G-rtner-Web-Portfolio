@@ -11,19 +11,40 @@
         <meta name="author" content="Timon Gärtner">
         <meta name="robots" content="index, follow">
         <meta name="revisit-after" content="4 month">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
 
 
-    <header>
+    <header id="name">
         <h1>Timon Gärtner</h1>
+        <img id="scan" src="Scan11.jpg" >
     </header>
     <nav>
-        <a class="navbtn" href="#about">Über mich</a>
-        <h2>Projekte</h2>
-        <h2>Kontakt</h2>
+        <script type="application/javascript">
+            $(document).on('click', 'a[href^="#"]', function(e) {
+                var id = $(this).attr('href');
+
+                var $id = $(id);
+                if ($id.length === 0) {
+                return;
+                }
+                e.preventDefault();
+
+    
+                var pos = $id.offset().top;
+
+    
+                $('body, html').animate({scrollTop: pos});
+            });
+        </script>
+        
+        <a class="navbtn" href="#about">Über mich</a><br>
+        <a class="navbtn" href="#projects">Projekte</a><br>
+        <a class="navbtn" href="#contact">Kontakt</a><br>
+        
     </nav>
     <body>
-
+        
         <article id="about">
             <header>
                 <h2>Über mich</h2>
@@ -39,33 +60,35 @@
                 diese Website erstelle übe ich mich an Web Developement und damit an HTML5, CSS und PHP.
                 <br><br>
                 In diesem Web-Portfolio erfährst du mehr über mich und meine bisherigen Projekte.
-            </p>
         </article>
-        <article>   
+        <article id="projects">   
             <header>
                 <h2>Projekte</h2>
             </header>
             <section id="neuralnetwork">
                 <h3>Handschriftliche Nummer-Erkennung</h3>
-                <p>
-                
+                <img id="MNISTpicture" src="MNIST.png">
+                <p id="neuralnetwork1">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
+                <br><br><br><br><br><br><br><br>
+
             </section>
             <section id="tictactoeproject">
                 <h3>Tic Tac Toe</h3>
                 <p>
-                
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </section>
             <section id="webportfolio">
                 <h3>Webportfolio</h3>
                 <p>
-                
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
             </section>
         </article>
 
-        <article>
+        <article id="contact">
             <header>
                 <h2>Kontakt</h2>
             </header>   
