@@ -22,9 +22,7 @@ a {
     text-align: left;
     background-color: cadetblue;
     margin: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     
     
 }
@@ -33,16 +31,12 @@ a {
     text-align: right;
     background-color: cornflowerblue;
     margin: 0;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 #webportfolio{
     text-align: left;
     background-color: darkblue;
     margin: 0;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 #about {
@@ -78,8 +72,6 @@ nav{
 }
 
 #projects {
-    margin-left: 5%;
-    margin-right: 5%;
     padding-top: 2%;
     margin-top: 17%;
 }
@@ -90,6 +82,7 @@ h2{
 
 #contact {
     background-color: rgb(32, 39, 51);
+    
 }
 
 #MNISTpicture{
@@ -100,4 +93,19 @@ h2{
 
 #neuralnetwork1{
     width: 50%
+}
+
+.hallo{
+    background-color: tomato;
+}
+
+#link{
+    color: white;
+}
+#link2{
+    color: rgb(23, 12, 82);
+}
+
+#abc{
+    width: 50%;
 }
