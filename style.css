@@ -14,9 +14,7 @@ body {
 a {
     color: rgb(23, 143, 143);
 }
-.v{
-    line-height: 1.5;
-}
+
 
 #neuralnetwork{
     text-align: left;
@@ -36,7 +34,6 @@ a {
 #webportfolio{
     text-align: left;
     background-color: darkblue;
-    margin: 0;
 }
 
 #about {
@@ -82,11 +79,9 @@ h2{
 
 
 #contact {
-    margin-top: 40vh;
-    margin-bottom: 40vh;
     background-color: rgb(32, 39, 51);
-    padding-top: 3vh;
-    padding-bottom: 9vh;
+    padding-top: 18vh;
+    padding-bottom: 10vh;
     
 }
 
@@ -114,4 +109,19 @@ h2{
 
 #pj{
     margin-right: 1%;
+}
+
+
+#git{
+    
+    width: 17vh;
+}
+
+#stack{
+    
+    width: 20vh;
+}
+#mail{
+    
+    width: 20vh;
 }
