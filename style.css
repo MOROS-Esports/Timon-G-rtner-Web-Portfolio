@@ -27,11 +27,15 @@ a {
 #tictactoeproject{
     text-align: right;
     background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    border-style: solid;
 }
 
 #webportfolio{
     text-align: left;
     background-color: darkblue;
+    border-color: darkblue;
+    border-style: solid;
 }
 
 #about {
@@ -79,7 +83,7 @@ h2{
 
 #contact {
     background-color: rgb(32, 39, 51);
-    padding-top: 18vh;
+    padding-top: 19vh;
     padding-bottom: 10vh;
     
 }
