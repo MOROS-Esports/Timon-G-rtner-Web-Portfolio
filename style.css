@@ -5,16 +5,13 @@ body {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     margin:auto;
-    max-width: 100%;
-    overflow-x: hidden;
-    height: auto!important;
     
 }
-html{
+html, body{
     max-width: 100%;
     overflow-x: hidden;
     height: auto!important;
-    
+}
 #name{
     line-height: 40%;
     font-size: 60px;
