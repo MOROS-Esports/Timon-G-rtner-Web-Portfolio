@@ -7,9 +7,13 @@ body {
     margin:auto;
     
 }
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: auto!important;
+}
 #name{
-    line-height: 40%;
-    font-size: 60px;
+    font-size: 47px;
 }
 a {
     color: rgb(23, 143, 143);
@@ -83,7 +87,7 @@ h2{
 
 #contact {
     background-color: rgb(32, 39, 51);
-    padding-top: 0.1vh;
+    padding-top: 19vh;
     padding-bottom: 10vh;
     
 }
@@ -125,7 +129,6 @@ h2{
     max-width: 23vh;
     width: 20vh;
 }
-
 #kontakt{
     display: block;
     
